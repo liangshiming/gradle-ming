@@ -1,0 +1,6 @@
+rootProject.name = 'gradle-ming'
+include 'gradle-ming-common'
+include 'gradle-ming-dao'
+include 'gradle-ming-service'
+include 'gradle-ming-web'
+

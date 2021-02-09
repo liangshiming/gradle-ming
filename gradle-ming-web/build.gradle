@@ -1,0 +1,6 @@
+dependencies {
+    //依赖service
+    implementation(project(":gradle-ming-service"))
+    //依赖springboot-starter-web
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: "$springbootVersion"
+}

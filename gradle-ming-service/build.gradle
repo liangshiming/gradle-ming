@@ -1,0 +1,8 @@
+dependencies {
+    //依赖common
+    implementation(project(":gradle-ming-common"))
+    //依赖dao
+    implementation(project(":gradle-ming-dao"))
+    //引入fastjson
+    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.75'
+}
